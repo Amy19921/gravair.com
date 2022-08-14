@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>AVION</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="travelling.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+ 		<h1 class="titre">GRAV'AIR ✈️</h1>
+ 		<h3 class="slogan">"LA TÊTE DANS LES NUAGES"</h3>
+ 		<form action="https://formspree.io/f/xnqrqbna" method="POST">
+ 			<div class="form-group">
+	 			<label for="Provenance">Ville De Départ</label>
+	 			<input type="text" name="Provenance" id="provenance" placeholder="Paris, Milan,..." required="">
+	 			<label for="Destinations">Ville D'Arrivée</label>
+	 			<input type="text" name="Destinations" id="destinations" placeholder="Paris, Milan,..." required="">
+ 		    </div>
+ 		    <div class="form-group">
+	 			<label for="Date-Départ">Date De Départ</label>
+	 			<input type="date" name="Date-Départ" id="Date-Départ" value="8/14/2022" required>
+	 			<label for="Date-Retour">Date De Retour</label>
+	 			<input type="date" name="Date-Retour" id="Date-Retour" value="8/14/2022" required>
+ 			</div>
+ 			<div class="form-group">
+ 			<label for="adultes">Nombre D'adultes</label>
+ 			<select name="Adultes" id="adultes">
+ 				<option selected="selected">0 adulte</option>
+ 				<option>1 Adulte</option>
+ 				<option>2 Adultes</option>
+ 				<option>3 Adultes</option>
+ 				<option>4 Adultes</option>
+ 				<option>5 Adultes</option>
+ 			</select>
+ 			<label for="enfants">Nombre D'enfants</label>
+ 			<select name="Enfants" id="enfants">
+ 				<option selected="selected">0 enfant</option>
+ 				<option>1 enfant</option>
+ 				<option>2 enfants</option>
+ 				<option>3 enfants</option>
+ 				<option>4 enfants</option>
+ 				<option>5 enfants</option>
+ 			</select>
+ 			<label for="type-">Catégorie</label>
+ 			<select name="type" id="type">
+ 				<option selected="selected">Classe Economique</option>
+ 				<option>Classe Affaire</option> 
+ 			</select>
+ 			</div>
+ 			<div class="form-button">
+ 			<input type="submit" value="Valider" name="recherche" id="recherche">
+ 			</div>
+ 		</form>
+ 			<h3 class="phrase">-Nous Proposons Plusieurs Destinations Pour Découvrir Le Monde-</h3>
+ 	</header>
+    <section id="destination">
+    	<div class="destination-group">
+
+	    	<div class="destination-item Autriche">
+	    		<div class="overlay">
+		    		<span class="nom">Autriche</span>
+		    		<span class="prix">80£</span>
+	    		</div>
+	    	</div>
+	    	<div class="destination-item Australie">
+	    		<div class="overlay">
+		    		<span class="nom">Australie</span>
+		    		<span class="prix">90£</span>
+	    		</div>
+	    	</div>
+	    	<div class="destination-item Etats-Unis">
+	    		<div class="overlay">
+		    		<span class="nom">Etats Unis</span>
+		    		<span class="prix">900£</span>
+	    		</div>
+	    	</div>
+	    	<div class="destination-item Chine">
+	    		<div class="overlay">
+		    		<span class="nom">Chine</span>
+		    		<span class="prix">1500£</span>
+	    		</div>
+	    	</div>
+	    	<div class="destination-item France">
+	    		<div class="overlay">
+		    		<span class="nom">France</span>
+		    		<span class="prix">55£</span>
+		    	</div>
+	    	</div>
+	    	<div class="destination-item Russie">
+	    		<div class="overlay">
+		    		<span class="nom">Russie</span>
+		    		<span class="prix">1200£</span>
+	    		</div>
+	    	</div>
+	    	<div class="destination-item Dubai">
+	    		<div class="overlay">
+		    		<span class="nom">Dubai</span>
+		    		<span class="prix">300£</span>
+		    	</div>
+	    	</div>
+    	</div>
+    </section>
+    <footer>
+    	<p>&copy; 2022 - GRAV'AIR - ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+</html>
+
+ 			
+ 		

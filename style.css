@@ -1,0 +1,180 @@
+* {
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	background-color: lightblue;;
+	margin: 0 auto;
+	color: #FFF;
+}
+
+header {
+	background: url(images/pexels-pixabay-2363.jpg) 100% fixed;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1.titre {
+	font-size: 125px;
+	text-transform: uppercase;
+	line-height: 2px;
+	opacity: 0.85;
+}
+
+h3.slogan {
+	font-size: 45px;
+	font-style: italic;
+	opacity: 0.85;
+}
+
+div.destination-item {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	flex: 1 0 10%;
+}
+
+div.destination-item:hover {
+	transform: scale(0.93);
+	transition: 0.05s all;
+	box-shadow: 10px 10px 5px 12px lightblue; 
+}
+
+div.destination-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.Autriche {background: url(images/pexels-graphicgumcom-1123982.jpg);}
+
+.Australie {background: url(images/pexels-mihai-vlasceanu-1400249.jpg);}
+
+.Etats-Unis {background: url(images/pexels-pixabay-64271.jpg);}
+
+.Chine {background: url(images/pexels-ruiyang-zhang-3204950.jpg);}
+
+.France {background: url(images/pexels-jane-blaze-12519258.jpg);}
+
+.Russie {background: url(images/pexels-julius-silver-753339.jpg);}
+
+.Dubai {background: url(images/pexels-pixabay-162031.jpg);}
+
+div.Autriche {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+div.Australie {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+div.Etats-Unis {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+div.Chine {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+div.France {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+div.Russie {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+div.Dubai {
+	background-size: 200px;
+	margin-bottom: 0;
+}
+
+.overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+span.nom {
+	position: relative;
+	background-color: #1D4771;
+	top: 20px;
+	padding: 7px;
+	float: right;
+	font-size: 20px;
+}
+
+span.prix {
+	position: relative;
+	background-color: #EC700A;
+	padding: 10px;
+	top: 190px;
+
+}
+
+header form {
+	background-color: #1D4771;
+	padding: 30px;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+.form-group label {
+	margin: 6px; 
+}
+
+.form-group input {
+	margin: 6px; 
+}
+
+div.form-button {
+
+}
+
+.form-button {
+	text-align: center;
+	margin: 7px;
+	padding: 8px;
+	margin-top: 8px;
+}
+
+.form-group input, select, option {
+	 
+}
+
+.phrase {
+	font-size: 45px;
+	text-align: center;
+	opacity: 0.85;
+}
+
+footer {
+	background-size: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer p {
+	text-align: center;
+	opacity: 0.85;
+	font-size: 35px;
+}
